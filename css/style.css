@@ -1,29 +1,112 @@
 body{
-    background-color:#EAF6F6;
-}
-
-hr{
-    border-style: none;
-    border-color:steelblue;
-    border-top-style: dotted; 
-    border-width: 5px;
-    width: 10%;
+    background-color:#E1FFEE;
+    margin: 0;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
 }
 
 h1{
-    color: #0e9df0;
-    text-align:center;
+    margin-top: 0;
+    font-family:'Silkscreen';
+    font-size:562.2%;   /* 100% is 16 px -> 90px / 16 px = 562.2*/
 }
 
-h3{
-    color: #66BFBF;
+h2{
+    font-family: 'Silkscreen';
+   
 }
 
-#profile-pic
+.top-container{
+    background-color: #7FBCD2;
+    position: relative;
+    padding-top: 350px;
+}
+
+.middle-container
 {
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color:#7FBCD2;
+    padding: 50px 0 20px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.img-p{
     border-radius: 100%;
 }
 
-#profile-pic:hover {
-    border-radius: 30%;
+.paragraph{
+    font-size: 3rem ;
+    font-weight: normal;
+}
+
+.skill-row
+{
+    width:50%;
+    margin:100px auto 200px auto;
+    text-align:left;
+    line-height: 2;
+    
+}
+
+.programming-cat{
+    float: left;
+    margin-right: 30px;
+}
+
+.Network-stuff{
+    float:right;
+    margin-left: 30px;
+}
+
+.Embedded-Systems
+{
+    float:left;
+    margin-right: 30px;
+}
+
+.Deep-Learning
+{
+    float:right;
+    margin-left: 30px;
+    width:270px;
+    height:200px;
+}
+
+hr
+{
+    border:dotted #000c0c 6px;
+    border-bottom: none;
+    width: 25%;
+    margin: 100px auto;
+
+}
+
+a
+{
+    font-family: 'Silkscreen', sans-serif;
+    margin: 20px 10px;
+    text-decoration: none ;
+}
+a:hover
+{
+    color:navy;
 }
